@@ -1,6 +1,6 @@
-# CNNsum
+# CHUNKsum
 
-CNNsum is a hierarchical Markdown summarizer that processes large documents efficiently.
+CHUNKsum is a hierarchical Markdown summarizer that processes large documents efficiently.
 
 ## Features
 
@@ -27,7 +27,7 @@ CNNsum is a hierarchical Markdown summarizer that processes large documents effi
 
 ## Usage
 
-python CNNsum.py <input_file> [options]
+python CHUNKsum.py <input_file> [options]
 
 ## Output
 
