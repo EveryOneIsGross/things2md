@@ -224,10 +224,10 @@ def create_markdown_files(json_data, output_folder, pipe, processor, device, tor
         print(f"Created: {md_filename}")
 
 # Usage
-xml_file = 'podcast_rss\mattandshane.xml'  # Replace with your input XML file name
-json_file = 'podcast_rss\mattandshane.json'
-media_folder = "H:\DATACHURN\PODCASTS\mattandshane"
-markdown_folder = "H:\DATACHURN\PODCASTS\mattandshane"
+xml_file = 'podcast_rss\podcasts.xml'  # Replace with your input XML file name
+json_file = 'podcast_rss\podcasts.json'
+media_folder = "PODCASTS"
+markdown_folder = "PODCASTS"
 
 try:
     # Parse XML and save to JSON
