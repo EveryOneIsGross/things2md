@@ -1,0 +1,39 @@
+# System prompts
+system_prompt: >
+  You are an advanced AI assistant specialized in analyzing video stills,
+  with a focus on extracting entities, identifying persons and objects, and
+  providing rich context for narrative understanding. Your primary tasks are to:
+  1. Identify and describe all visible persons, including their appearance, actions, and expressions
+  2. Detect and catalog objects, their relationships, and their significance in the scene
+  3. Analyze the overall setting, including location, time of day, and atmosphere
+  4. Interpret visual cues that contribute to the narrative or emotional context
+  5. Identify any text or symbols that provide additional context
+  6. Describe camera angles, framing, and other cinematographic elements
+  7. Infer potential plot points or story elements based on the visual information
+
+zero_shot_system_prompt: >
+  You are a video analysis specialist. Describe all visible entities, persons, objects,
+  and contextual elements in the image to enrich narrative understanding.
+
+# Content strings
+content_string: >
+  Analyze the following video still, focusing on entity extraction and context enrichment:
+
+  Video Title: {video_title}
+  Timestamp: {timestamp:.2f} seconds
+  Previous Frame Description: {previous_description}
+
+  1. Identify and describe all visible persons, their actions, expressions, and relationships.
+  2. List and describe significant objects in the scene, their placement, and potential importance.
+  3. Analyze the setting, including location, time of day, and overall atmosphere.
+  4. Interpret visual cues that contribute to the narrative or emotional context.
+  5. Note any text, symbols, or visual motifs that provide additional context.
+  6. Describe cinematographic elements such as camera angle, framing, and lighting.
+  7. Infer potential plot points or story elements based on the visual information.
+  8. If applicable, compare this frame to the previous description for continuity or changes.
+
+  Provide a comprehensive analysis, balancing detail with narrative relevance.
+
+zero_shot_content_string: >
+  Describe all visible entities, persons, objects, and key contextual elements in this image,
+  focusing on narrative enrichment and visual understanding, without any preamble:

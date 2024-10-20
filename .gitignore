@@ -1,0 +1,4 @@
+# Environment variables
+# ignore .env file
+.env
+/archive
