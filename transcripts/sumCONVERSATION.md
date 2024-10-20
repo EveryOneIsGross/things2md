@@ -1,6 +1,4 @@
-Certainly! Here's a GitHub-friendly Markdown version of a README for this project:
 
-```markdown:README.md
 # Gemini Conversation Analyzer
 
 This Python script uses the Gemini API to analyze and reconstruct conversations from raw, unpunctuated text. It provides a detailed linguistic analysis and structures the conversation for better readability.
@@ -54,20 +52,3 @@ The script will generate an output file named `input_file_flashtranscribed.md` w
 2. It sends the content to the Gemini API for analysis and reconstruction.
 3. If the initial response is incomplete, it continues the conversation with the API.
 4. The reconstructed conversation and analysis are saved to a new Markdown file.
-
-## Limitations
-
-- The script is limited to processing Markdown (.md) files.
-- It has a maximum number of attempts (6) for continuing the conversation with the API.
-- The quality of the analysis depends on the Gemini model's capabilities.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-This README provides a concise overview of the project, its features, installation instructions, usage, and how it works. It's formatted in a way that's easy to read on GitHub and provides potential users or contributors with the essential information they need to understand and use the script.
